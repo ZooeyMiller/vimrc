@@ -16,11 +16,12 @@ set autoread                  " Auto-reload files changed on disk
 set colorcolumn=80            " Ruler at 80 chars
 set grepprg=git\ grep\ -n\ $* " set grep to git grep
 set relativenumber
+set number
 colo industry                 " Set the colorscheme to industry
 
 set cindent                    " Smart, customizable indentation
-set tabstop=4                  " Soft tab size (default)
-set softtabstop=4              " Unify
-set shiftwidth=4               " Indent/outdent by 4 columns
+set tabstop=2                  " Soft tab size (default)
+set softtabstop=2              " Unify
+set shiftwidth=2               " Indent/outdent by 2 columns
 set shiftround                 " Always indent/outdent to the nearest tabstop
 set expandtab                  " Use spaces instead of tabs
