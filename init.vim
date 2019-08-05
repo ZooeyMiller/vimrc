@@ -8,12 +8,15 @@ Plug 'godlygeek/tabular'
 Plug 'FrigoEU/psc-ide-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'prettier/vim-prettier', {
   \'do': 'yarn install',
   \'branch': 'release/1.x',
   \'for': [
     \'scss',
-    \'css' ] }
+    \'css' ,
+    \'json'] }
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
